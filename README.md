@@ -15,6 +15,8 @@ Basic setup koa.js runs on iojs using docker containers via vagrant to sync port
 
 `npm install` inside app folder
 
+`vagrant box add debian/chef-7.4`
+
 `vagrant up`
 
 #### TODO
