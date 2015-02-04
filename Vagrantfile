@@ -8,7 +8,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
     v.vm.provider "docker" do |d|
       # docker file location
-      d.build_dir = "."
+      d.build_dir = "./"
       # exposed ports from docker container
       d.ports = ["8080:8080"]
       # command to run after dockerfile finish running
