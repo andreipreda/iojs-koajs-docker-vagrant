@@ -54,7 +54,7 @@ The Docker container it's initialised from iojs Docker image and the `app` folde
 `vagrant up`
 
 
-#### Known possible errors
+#### Known possible installation errors
 
 When vagrant up an error could appear that `docker stop` command cannot execute.
 This is happening because the host Mac OSx vagrant tells the Intermediary host Debian to control a container in it's environment which fails.
